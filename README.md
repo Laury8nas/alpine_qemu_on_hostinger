@@ -43,7 +43,7 @@ wget https://github.com/Laury8nas/alpine_qemu_on_hostinger/raw/refs/heads/main/o
 - The QEMU will use a 1 CPU core from the host machine for that VM by default;
 - The QEMU will use `user` network mode for the created VM which provides a basic network/Internet functionality, but no communication between host and VM unless specified differently in the script;
 - Make sure to be familiar with [apk package manager](https://wiki.alpinelinux.org/wiki/Alpine_Package_Keeper "apk package manager") as Alpine Linux provides really minimal set of packages installed by default;
-- Be aware that the Hostinger server kills processes automatically that are running for more than 60 minutes, so if you plan to use VM for a longer time, you will need to re-launch it manually or via cron-job;
+- Be aware that the Hostinger server kills processes automatically that are running for more than 60 minutes, so if you plan to use VM for a longer time, you will need to re-launch it manually (by using my VM opening script) or via cron-job;
 - Be aware that QEMU doesn't use hardware acceleration and runs as a regular process in the hosting plan, so VM power is limited to something about 10-30% of what the host machine can do in reality and the QEMU will put a lot of stress to the server resource usage as well.
 
 ## Final thoughts
