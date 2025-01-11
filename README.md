@@ -40,7 +40,6 @@ wget https://github.com/Laury8nas/alpine_qemu_on_hostinger/raw/refs/heads/main/o
 - All the changes that you make in the VM will be saved to the virtual disk which can be found at this location:  `~/alpine/alpine-virtual-backup.qcow2`;
 - The created virtual disk maximum size is set to 16 GB;
 - The QEMU will use a maximum of 1024 MB of RAM from the host machine for that VM by default;
-- The QEMU will use a maximum of 1024 MB of RAM from the host machine for that VM by default;
 - The QEMU will use a 1 CPU core from the host machine for that VM by default;
 - The QEMU will use `user` network mode for the created VM which provides a basic network/Internet functionality, but no communication between host and VM unless specified differently in the script;
 - Make sure to be familiar with [apk package manager](https://wiki.alpinelinux.org/wiki/Alpine_Package_Keeper "apk package manager") as Alpine Linux provides really minimal set of packages installed by default;
