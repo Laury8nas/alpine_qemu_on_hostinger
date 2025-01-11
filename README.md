@@ -1,5 +1,5 @@
-# How to create Alpine Linux VM on QEMU for Hostinger Shared hosting plan
-This guide will show how it's possible to create Alpine Linux 3.19  on a Hostinger Shared/Cloud hosting plan without root access. This method will be based on [Miniconda](https://docs.anaconda.com/miniconda/ "Miniconda") usage and prebuild [QEMU](https://github.com/qemu/qemu "QEMU") 9.2.50 release.
+# How to create an Alpine Linux VM on QEMU for Hostinger's Shared hosting plan
+This guide will show how it's possible to create Alpine Linux 3.19  on a Hostinger's Shared/Cloud hosting plan without root access. This method will be based on [Miniconda](https://docs.anaconda.com/miniconda/ "Miniconda") usage and prebuild [QEMU](https://github.com/qemu/qemu "QEMU") 9.2.50 release.
 
 ## Preparation
 
